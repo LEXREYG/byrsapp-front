@@ -23,6 +23,9 @@
     "vue-router": "^3.4.9"
   },
   "devDependencies": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "node server.js",
+    "build": "node build/build.js",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
