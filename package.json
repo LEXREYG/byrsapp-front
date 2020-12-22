@@ -15,6 +15,7 @@
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.21.1",
     "express": "^4.17.1",
+    "opencollective": "^1.0.3",
     "opencollective-postinstall": "^2.0.3",
     "package.json": "^2.0.1",
     "serve": "^11.3.2",
@@ -23,9 +24,6 @@
     "vue-router": "^3.4.9"
   },
   "devDependencies": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "node server.js",
-    "build": "node build/build.js",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -70,18 +68,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LEXREYG/byrsapp-front.git"
-  },
-  "keywords": [
-    "none"
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LEXREYG/byrsapp-front.git"
-  },
-  "homepage": "https://github.com/LEXREYG/byrsapp-front.git"
+  ]
 }
