@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Alexander Reyes <aleksander.reyes.gonzalez@gmail.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -77,7 +77,7 @@
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LEXREYG/byrsapp-front.git/issues"
+    "url": "https://github.com/LEXREYG/byrsapp-front/issues"
   },
-  "homepage": "https://github.com/LEXREYG/byrsapp-front.git#readme"
+  "homepage": "https://github.com/LEXREYG/byrsapp-front#readme"
 }
